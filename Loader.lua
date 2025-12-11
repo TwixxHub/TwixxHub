@@ -1,4 +1,4 @@
-local url = "https://pastebin.com/raw/5p2qFS9g"  -- MUST use /raw/ for loadstring
+local url = "https://pastebin.com/raw/Bubezj5f"
 local source = game:HttpGet(url)
 
 local success, result = pcall(loadstring(source))
