@@ -1,4 +1,4 @@
-local url = "https://pastebin.com/raw/ZrGPNNYGf"
+local url = "loadstring(game:HttpGet("https://pastebin.com/raw/ZrGPNNYG"))()"
 local source = game:HttpGet(url)
 
 local scriptFunction, syntaxError = loadstring(source)
